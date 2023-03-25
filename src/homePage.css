@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.badge {
+    @apply py-1 px-4 border border-black rounded-3xl mr-3
+}
+.icon {
+    @apply p-3 bg-gray-100 rounded-full flex justify-center items-center
+}
+.products img {
+    width: 119px;
+    height: 119px;
+}
+.productsOrder img, .productsCart img {
+    width: 120px;
+    height: 120px;
+}
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 10px;
+    row-gap: 20px;
+}
+.nothing {
+    grid-area: 1/1/2/3;
+}
+.inputWishlistContainer {
+    @apply border-2 border-gray-200 rounded-2xl p-1
+}
+.homepage input:focus, .wishList input:focus {
+    outline: none;
+}
+.selected {
+    @apply bg-black text-white
+}
+.shoeWrap {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;}
+.productsOrder, .productsCart ,#allAddress{
+    min-height: 70vh;
+}
+.gray {
+    background-color: #f6f6f6;
+}
+.selectedColor:after {
+    content: "\2713";
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    top:3px;
+    left: 10px;
+}
