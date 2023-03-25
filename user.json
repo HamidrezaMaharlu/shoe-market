@@ -1,0 +1,97 @@
+[
+  {
+    "id": "1",
+    "createdAt": "2022-12-24T02:16:35.358Z",
+    "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+    "firstName": "Daniel",
+    "lastName": "Klein",
+    "username": "username@gmail.com",
+    "password": "password1",
+    "address": [
+      {
+        "title": "Home",
+        "ads": "61480 Sunbrook Park,Pc5679",
+        "selected": false
+      },
+      {
+        "title": "Office",
+        "ads": "6993 Meadow Vally Terra,PC 366",
+        "selected": false
+      },
+      {
+        "title": "Apartment",
+        "ads": "21833 Clyde Gallagher, PC 4662",
+        "selected": false
+      }
+    ],
+    "card": [
+      {
+        "qty": 1,
+        "price": 200,
+        "size": "44",
+        "color": "red",
+        "id": 1672093896825,
+        "shoeid": 1,
+        "name": "Air Jordan 6 Retro Hiking Shoes",
+        "totalPrice": 200
+      }
+    ],
+    "basket": [
+      {
+        "id": 1,
+        "name": "Wild Rider Layers Unisex Sneakers",
+        "price": 121,
+        "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/380697/02/sv01/fnd/IND/fmt/png/,Wild-Rider-Layers-Unisex-Sneakers",
+        "qty": 1,
+        "color": "green",
+        "status": "in Delivery",
+        "size": 42
+      },
+      {
+        "id": 7,
+        "name": "Caracal SoftFoam+Sneakers",
+        "price": 171,
+        "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/369863/18/sv01/fnd/IND/fmt/png/Caracal-SoftFoam+-Sneakers",
+        "qty": 1,
+        "color": "red",
+        "status": "in Delivery",
+        "size": 42
+      }
+    ],
+    "completedBuy": [
+      {
+        "id": 2,
+        "name": "Air Jordan 1 Utility Sport JX",
+        "price": 170,
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/956b0723-ef2f-4b49-8982-e2ec37e14f9c/air-jordan-1-utility-mens-shoes.png",
+        "brand": "nike",
+        "qty": 2,
+        "size": 44,
+        "status": "completed",
+        "color": "green"
+      },
+      {
+        "id": 4,
+        "name": "Defiant Generation multicourt tennis shoes",
+        "price": 971,
+        "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/49a9781d4d9c46629e9dabad00dd154b_9366/Defiant_Generation_multicourt_tennis_shoes_Pink_FX5814_01_standard.jpg",
+        "brand": "adidas",
+        "qty": 3,
+        "size": 44,
+        "status": "completed",
+        "color": "red"
+      },
+      {
+        "id": 11,
+        "name": "BMW M Motorsport City Rider Sneakers",
+        "price": 556,
+        "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_1500,h_1500/global/306975/01/sv01/fnd/IND/fmt/png/BMW-M-Motorsport-City-Rider-Sneakers",
+        "brand": "asics",
+        "qty": 1,
+        "size": 44,
+        "status": "completed",
+        "color": "orange"
+      }
+    ]
+  }
+]
